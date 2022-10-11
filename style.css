@@ -1,0 +1,39 @@
+.cards{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    display: inline-flex;
+    justify-items: center;
+    background-image: url("./resources/hand.jpg");
+    background-position: center;
+    background-size: contain;
+
+}
+
+.game_block{
+    display: flexbox;
+}
+
+.image{
+    width: 200px;
+    height: 250px;
+    opacity: 0;
+}
+
+#start_button{
+text-align: center;
+height: 30px;
+width: 60px;
+
+}
+
+body h2{
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+body{
+    margin-left: 200px;
+    max-width: 1000px;
+
+}
