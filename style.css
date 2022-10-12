@@ -33,7 +33,7 @@ body h2{
 }
 
 body{
-    margin-left: 300px;
+    margin-left: 15%;
     max-width: 1000px;
-
+    background-color:darkgray;
 }

@@ -22,13 +22,13 @@ let workers = [
     }, 
     {
         name: "Przemek",
-        img:"",
+        img:"resources/Przemek.jpg",
         isHidden: true, 
  
     }, 
     {
         name: "Max",
-        img:"",
+        img:"resources/Max.jpg",
         isHidden: true, 
  
     }, 
@@ -52,7 +52,7 @@ let workers = [
     }, 
     {
         name: "Misha",
-        img:"",
+        img:"resources/Misha.jpg",
         isHidden: true, 
  
     }, 
@@ -94,13 +94,13 @@ let workers = [
     },
     {
         name: "Maria",
-        img:"",
+        img:"resources/Maria.jpg",
         isHidden: true, 
  
     },
     {
         name: "Patrycja",
-        img:"",
+        img:"resources/Patrycja.jpg",
         isHidden: true, 
  
     },
