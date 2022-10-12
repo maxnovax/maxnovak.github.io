@@ -4,7 +4,7 @@ let cardsFound = 0;
 let workers = [
     {
         name: "Szymon",
-        img:"",
+        img:"resources/Szymon.jpg",
         isHidden: true,
  
     }, 
