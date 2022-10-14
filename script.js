@@ -14,12 +14,7 @@ let workers = [
         isHidden: true, 
  
     }, 
-    {
-        name: "TomekP",
-        img:"",
-        isHidden: true, 
- 
-    }, 
+
     {
         name: "Przemek",
         img:"resources/Przemek.jpg",
@@ -52,7 +47,7 @@ let workers = [
     }, 
     {
         name: "Misha",
-        img:"resources/Misha.jpg",
+        img:"resources/Misha.jpeg",
         isHidden: true, 
  
     }, 
@@ -70,16 +65,11 @@ let workers = [
     }, 
     {
         name: "Karina",
-        img:"",
+        img:"resources/Karina.png",
         isHidden: true, 
  
     },
-    {
-        name: "Paulina",
-        img:"",
-        isHidden: true, 
- 
-    },
+
     {
         name: "Oliwka",
         img:"resources/Oliwka.jpg",
