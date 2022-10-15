@@ -20,19 +20,23 @@
     opacity: 0;
 }
 
-#start_button{
-text-align: center;
-height: 30px;
-width: 60px;
 
+
+#game_block{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 body h2{
     margin-top: 60px;
     font-size: 35px;
+    color:darkblue;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 body{
-    margin-left: 15%;
     background-color:darkgray;
 }
