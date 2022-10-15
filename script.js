@@ -1,5 +1,7 @@
 
+
 let clickCounter = 0;
+let allClicks = 1;
 let cardsFound = 0;
 let n = 30;
 let workers = [
@@ -167,6 +169,8 @@ document.querySelectorAll('.image').forEach(item =>{
             item.style.opacity = "0";
         }
         clickCounter++;
+        document.getElementById('click').innerHTML = allClicks;
+        allClicks++;
         checkTwo();
         if(clickCounter>2){
             hideAll();
