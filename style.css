@@ -1,5 +1,5 @@
 .cards{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 200px;
     height: 250px;
     display: inline-flex;
@@ -8,7 +8,6 @@
     background-position: center;
     background-size: contain;
     border-radius: 5px;
-    border: 1px solid whitesmoke;
 
 }
 
@@ -23,7 +22,6 @@
 }
 
 #clicks_counter{
-    
     font-size: 24px;
     display: flex;
     justify-content: left;
