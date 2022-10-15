@@ -1,6 +1,7 @@
 
 let clickCounter = 0;
 let cardsFound = 0;
+let n = 30;
 let workers = [
     {
         name: "Szymon",
@@ -108,12 +109,12 @@ let onCards = workers;
 
 const randomize = () =>{
     //Choose 8 from all 
-    while (onCards.length > 8){
+    while (onCards.length >n ){
         let random = Math.floor(Math.random()* onCards.length);
         onCards.splice(random, 1);
     }
     //Double each
-    for(let i = 0; i<8; i++){
+    for(let i = 0; i<n/2; i++){
         if (!appearedTwice(onCards, onCards[i]))
         {
             onCards.push({...onCards[i]});
@@ -152,7 +153,7 @@ console.log(onCards);
 hideAll();
 
 // Copy images from array to cards
-for(let i=1; i<=16; i++){
+for(let i=1; i<=n; i++){
     document.getElementById(i).src = onCards[i-1].img;
     workers[i-1].id = i;
 }
@@ -171,7 +172,7 @@ document.querySelectorAll('.image').forEach(item =>{
             hideAll();
             clickCounter = 0;  
         }
-        if(cardsFound === 16){
+        if(cardsFound === n){
             alert("Wygrałeś/aś!!!");
         }
     });
@@ -184,7 +185,7 @@ document.querySelectorAll('.image').forEach(item =>{
 
 function checkTwo(){
     let opened =[];
-    for(let i=1; i<=16; i++){
+    for(let i=1; i<=n; i++){
         if(document.getElementById([i]).style.opacity === "1" && document.getElementById([i]).found !== true){
             if(clickCounter<3){
                 onCards[i-1].isHidden = false;
