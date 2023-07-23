@@ -3,109 +3,109 @@
 let clickCounter = 0;
 let allClicks = 1;
 let cardsFound = 0;
-let n = 30;
-let workers = [
+const n = 32;
+let dishes = [
     {
-        name: "Szymon",
-        img:"resources/Szymon.jpg",
+        name: "baba-ganoush.jpg",
+        img:"resources/baba-ganoush.jpg",
         isHidden: true,
  
     }, 
     {
-        name: "TomekD",
-        img:"resources/TomekD.JPG",
+        name: "dolma",
+        img:"resources/dolma.jpg",
         isHidden: true, 
  
     }, 
 
     {
-        name: "Przemek",
-        img:"resources/Przemek.jpg",
+        name: "falafel",
+        img:"resources/falafel.jpg",
         isHidden: true, 
  
     }, 
     {
-        name: "Max",
-        img:"resources/Max.jpg",
+        name: "fatayer",
+        img:"resources/fatayer.png",
         isHidden: true, 
  
     }, 
     {
-        name: "Vlad",
-        img:"resources/Vlad.jpg",
+        name: "fattoush",
+        img:"resources/fattoush.jpg",
         isHidden: true, 
  
     }, 
     {
-        name: "Ivan",
-        img:"resources/Ivan.jpg",
+        name: "harira",
+        img:"resources/harira.jpg",
         isHidden: true, 
  
     }, 
     {
-        name: "Diana",
-        img:"resources/Diana.jpg",
+        name: "hummus",
+        img:"resources/hummus.jpg",
         isHidden: true, 
  
     }, 
     {
-        name: "Misha",
-        img:"resources/Misha.jpeg",
+        name: "kibbeh",
+        img:"resources/kibbeh.jpeg",
         isHidden: true, 
  
     }, 
     {
-        name: "Paweł",
-        img:"resources/Paweł.JPG",
+        name: "kofta",
+        img:"resources/kofta.jpg",
         isHidden: true, 
  
     }, 
     {
-        name: "Puszek",
-        img:"resources/Puszek.jpg",
+        name: "kunafa",
+        img:"resources/kunafa.jpg",
         isHidden: true, 
  
     }, 
     {
-        name: "Karina",
-        img:"resources/Karina.png",
+        name: "manakeesh",
+        img:"resources/manakeesh.jpg",
         isHidden: true, 
  
     },
 
     {
-        name: "Oliwka",
-        img:"resources/Oliwka.jpg",
+        name: "maqluba.jpg",
+        img:"resources/maqluba.jpg",
         isHidden: true, 
  
     },
     {
-        name: "Gaba",
-        img:"resources/Gabi.JPG",
+        name: "sambousek",
+        img:"resources/sambousek.jpg",
         isHidden: true, 
  
     },
     {
-        name: "Maria",
-        img:"resources/Maria.jpg",
+        name: "shishkebab.jpg",
+        img:"resources/shishkebab.jpg",
         isHidden: true, 
  
     },
     {
-        name: "Patrycja",
-        img:"resources/Patrycja.jpg",
+        name: "tabouleh",
+        img:"resources/tabouleh.jpg",
         isHidden: true, 
+ 
+    },
+    {
+        name: "basbousa",
+        img:"resources/basbousa.jpg",
+        isHidden: true,
  
     },
 ]
 
-let onCards = workers;
-
-
-    /*document.getElementById("start_button").onclick = function(){
-        alert("you started the game");
-        document.getElementById("start_button").innerHTML = "ggg";
-    }*/
+let onCards = dishes;
 
 
 
@@ -157,7 +157,7 @@ hideAll();
 // Copy images from array to cards
 for(let i=1; i<=n; i++){
     document.getElementById(i).src = onCards[i-1].img;
-    workers[i-1].id = i;
+    dishes[i-1].id = i;
 }
 
 
