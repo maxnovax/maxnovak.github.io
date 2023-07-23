@@ -3,7 +3,7 @@
 let clickCounter = 0;
 let allClicks = 1;
 let cardsFound = 0;
-const n = 32;
+const n = 30;
 let dishes = [
     {
         name: "baba-ganoush.jpg",
@@ -96,13 +96,7 @@ let dishes = [
         img:"resources/tabouleh.jpg",
         isHidden: true, 
  
-    },
-    {
-        name: "basbousa",
-        img:"resources/basbousa.jpg",
-        isHidden: true,
- 
-    },
+    }
 ]
 
 let onCards = dishes;
